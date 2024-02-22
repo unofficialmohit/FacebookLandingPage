@@ -1,0 +1,126 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #e9eaee;
+    display: flex;
+}
+.logo img{
+   
+    height: 30%;
+    width: 30%;
+}
+h1{
+    font-size:larger;
+    padding-left: 30px;
+    margin-top: -15px;
+}
+.logoarea{
+    margin-top: 12%;
+    margin-left: 10px;
+}
+.container{
+    margin-top: 8%;
+    margin-left: -10%;
+    display:block;
+    height: 28%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type="text"]{
+    font-size:medium;
+    margin-left: 30px;
+    margin-right: 80px;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.username{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: rgb(208, 208, 208) rgb(179, 179, 179);
+
+
+}
+.password{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border-color: rgb(208, 208, 208) rgb(179, 179, 179);
+
+
+}
+.login{
+    background-color: #1877f2;
+    padding:10px 130px;
+    font-size: large;
+    color: beige;
+    margin-bottom: 20px;
+    border-width: 0cap;
+    border-radius: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.login:hover{
+    background-color: #2f82ef;
+    cursor: pointer;
+}
+.signup{
+    background-color: #42b72a;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: large;
+    color: beige;
+    border-radius: 3px;
+    border-width: 0cap;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+.signup:hover{
+    cursor: pointer;
+    background-color: #54b640;
+}
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer{
+    display: inline-block;
+
+    margin-top: 20px;
+    position:absolute;
+    bottom: 0;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    padding-left:20px;
+    padding-right:950px;
+    background-color: #ffffff;
+}
+.lang,.links{
+    margin-left: 20px;
+}
+a{
+    font-size: small;
+    text-decoration: none;
+    color: #9b9b9b;
+    margin-right: 5px;
+}
+.footer hr{
+    margin-left: 10px;
+    margin-right: -900px;
+}
+.msg{
+    margin-top: 500px;
+    margin-left: -350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+
+<script>
+// Function to detect device type
+function detectDevice() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Windows users
+    if (/windows phone/i.test(userAgent)) {
+        return "Windows Mobile";
+    }
+
+    // Android users
+    if (/android/i.test(userAgent)) {
+        return "Android";
+    }
+
+    // iOS users
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        return "iOS";
+    }
+
+    // If none of the above, return "PC"
+    return "PC";
+}
+
+// Display error message if not on PC
+if (detectDevice() !== "PC") {
+    document.querySelector('body').outerHTML = "This site will only work on a PC.";
+}
+</script>
+    <div class="logoarea">
+        <div class="logo">
+            <img src="fb.svg">
+        </div>        
+        <div class="logotext">
+            <h1>Facebook helps you connect and<br> share with the people in your life.</h1>
+        </div>
+
+    </div>
+    <div class="container">
+        <form action="#">
+            <input type="text" class="username" placeholder="Enter UserName and Password">
+            <br>
+            <input type="text" class="password" placeholder="Enter Password">
+            <br>
+            <button type="submit" class="login">Log in</button>
+            <br>
+            <a href="#" style="text-decoration: none;color: #066fde;font-size: medium;">Forgotten Password?</a>
+            <hr>
+            <button type="button" class="signup">Create New Account</button>
+        </form>
+
+    </div>
+    <br>
+    <div class="msg">Create a Page for a celebrity, brand or business.</div>
+    <div class="footer">
+    <div class="lang">
+        <a href="#">English (UK)</a>
+        <a href="#">ਪੰਜਾਬੀ</a>
+        <a href="#">हिन्दी</a>
+        <a href="#">اردو</a>
+        <a href="#">मराठी</a>
+        <a href="#">ગુજરાતી</a>
+        <a href="#">বাংলা</a>
+        <a href="#">தமிழ்</a>
+        <a href="#">ಕನ್ನಡ</a>
+        <a href="#">മലയാളം</a>
+        <a href="#">తెలుగు</a>
+
+    </div>
+    <hr>
+    <div class="links">
+        <a href="#">Sign Up</a>
+        <a href="#">Log in</a>
+        <a href="#">Messenger</a>
+        <a href="#">Facebook Lite</a>
+        <a href="#">Video</a>
+        <a href="#">Places</a>
+        <a href="#">Games</a>
+        <a href="#">Marketplace</a>
+        <a href="#">Meta Pay</a>
+        <a href="#">Meta Store</a>
+        <a href="#">Meta Quest</a>
+        <a href="#">Imagine with Meta</a>
+        <a href="#">Instagram</a>
+        <a href="#">Threads</a>
+        <a href="#">Fundraisers</a>
+        <a href="#">Service</a>
+        
+
+
+
+    </div>
+    </div>
+     <!-- <button class="india">INDIA</button>        -->
+</body>
+</html>
